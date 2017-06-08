@@ -2,7 +2,7 @@
 ### By Arda Mavi
 
 Handwritten digit classifier with deep learning.<br/>
-Trained on MNIST
+Trained on MNIST Database.
 
 ### Example:
 |<img src="/Data/Test/test-0.jpg">|<img src="Data/Test/test-1.jpg">|<img src="Data/Test/test-2.jpg">|<img src="Data/Test/test-3.jpg">|<img src="Data/Test/test-4.jpg">|
@@ -11,7 +11,7 @@ Trained on MNIST
 |<img src="Data/Test/test-5.jpg">|<img src="Data/Test/test-6.jpg">|<img src="Data/Test/test-7.jpg">|<img src="Data/Test/test-8.jpg">|<img src="Data/Test/test-9.jpg">|
 |Predict: 5|Predict: 6|Predict: 7|Predict: 8|Predict: 9|
 
-##### In this example datasets, all predict correct.
+##### In this example dataset, all predict correct.
 ##### Details of this example:
 - Epochs = 2
 - Batch Size = 100

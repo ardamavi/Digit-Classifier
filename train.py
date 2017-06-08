@@ -10,7 +10,7 @@ from keras.preprocessing.image import ImageDataGenerator
 def train_model(model, X, X_test, Y, Y_test):
 
     batch_size = 100
-    epochs = 5
+    epochs = 2
 
     checkpoints = []
     if not os.path.exists('Data/Checkpoints/'):
