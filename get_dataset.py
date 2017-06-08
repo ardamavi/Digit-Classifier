@@ -6,9 +6,8 @@ from scipy.misc import imread, imresize
 from keras.datasets import mnist
 
 def get_img(data_path):
-    img_size = 28
     img = imread(data_path)
-    img = imresize(img, (img_size, img_size, 1))
+    img = imresize(img, (28, 28, 1))
     img = img.reshape(1, 28, 28, 1)
     return img
 
